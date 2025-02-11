@@ -1,0 +1,18 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.preview-container {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/* Reset styles for preview container */
+.preview-container * {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
