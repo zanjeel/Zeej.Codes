@@ -7,7 +7,9 @@ export const categories: Category[] = [
   { id: 'loaders', name: 'Loaders', icon: 'loader-2' },
   { id: 'toggles', name: 'Toggles', icon: 'toggle-left' },
   { id: 'contact', name: 'Contact', icon: 'mail' },
+  
 ];
+
 
 export const components: Component[] = [
   {
