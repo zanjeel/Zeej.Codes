@@ -391,7 +391,7 @@ export const components: Component[] = [
 }
 
 .card .card_title__container .card_title {
-  font-size: 1rem;
+  font-size: 1.5rem;
   color: var(--white);
 }
 
@@ -399,7 +399,7 @@ export const components: Component[] = [
   margin-top: 0.25rem;
   width: 65%;
 
-  font-size: 0.5rem;
+  font-size: 0.7rem;
   color: var(--paragraph);
 }
 
@@ -449,7 +449,6 @@ export const components: Component[] = [
 
 .card .button {
   cursor: pointer;
-
   padding: 0.5rem;
   width: 100%;
   height: 100%;
@@ -459,9 +458,8 @@ export const components: Component[] = [
     rgba(197, 107, 240, 1) 100%
   );
 
-  font-size: 0.75rem;
+  font-size: 1rem;
   color: var(--white);
-
   border: 0;
   border-radius: 9999px;
   box-shadow: inset 0 -2px 25px -4px var(--white);
@@ -551,8 +549,7 @@ export const components: Component[] = [
 .search__icon {
   width: 50px;
   aspect-ratio: 1;
-  border-left: 2px solid black;
-  border-top: 3px solid transparent;
+  border-left: 0px solid black;
   border-bottom: 3px solid transparent;
   border-radius: 50%;
   padding-left: 12px;
