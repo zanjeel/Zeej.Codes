@@ -34,11 +34,12 @@ const HomePage = () => {
               <h3 className="text-lg font-semibold mb-2">{component.name}</h3>
               <p className="text-gray-400 text-sm mb-4">{component.description}</p>
               
-              <div className="flex items-center justify-between">
-                <div className="flex items-center space-x-2 text-gray-400">
+              <div className="flex items-center justify-end">
+                
+                {/* <div className="flex items-center space-x-2 text-gray-400">
                   <Eye className="w-4 h-4" />
                   <span>{component.views.toLocaleString()}</span>
-                </div>
+                </div> */}
                 
                 <Link
                   to={`/component/${component.id}`}
@@ -48,6 +49,7 @@ const HomePage = () => {
                   <span>Get Code</span>
                 </Link>
               </div>
+
             </div>
           </div>
         ))}

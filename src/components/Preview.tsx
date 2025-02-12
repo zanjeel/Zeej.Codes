@@ -12,7 +12,7 @@ const Preview: React.FC<PreviewProps> = ({ html, css }) => {
   `;
 
   return (
-    <div className="w-full h-full rounded-lg shadow-lg p-8 flex items-center justify-center">
+    <div className="w-full h-full rounded-lg p-8 flex items-center justify-center">
       <div
         className="preview-container"
         dangerouslySetInnerHTML={{ __html: combinedCode }}
