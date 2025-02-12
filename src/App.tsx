@@ -11,28 +11,27 @@ function App() {
   return (
     <Router>
       <div className="min-h-screen bg-gray-900 text-white flex flex-col">
+        {/* Navbar and Footer on all pages */}
+        <Navbar />
         <Routes>
           {/* Landing Page Route */}
           <Route path="/" element={<LandingPage />} />
           
-          {/* Navbar appears on all other pages except Landing */}
+          {/* Other Pages */}
           <Route
             path="/*"
             element={
-              <>
-                <Navbar />
-                <main className="flex-grow">
-                  <Routes>
-                    <Route path="/home" element={<HomePage />} />
-                    <Route path="/component/:id" element={<ComponentPage />} />
-                    <Route path="/category/:id" element={<CategoryPage />} />
-                  </Routes>
-                </main>
-                <Footer />
-              </>
+              <main className="flex-grow">
+                <Routes>
+                  <Route path="/home" element={<HomePage />} />
+                  <Route path="/component/:id" element={<ComponentPage />} />
+                  <Route path="/category/:id" element={<CategoryPage />} />
+                </Routes>
+              </main>
             }
           />
         </Routes>
+        <Footer />
       </div>
     </Router>
   );

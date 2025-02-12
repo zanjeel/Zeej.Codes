@@ -13,7 +13,7 @@ const Navbar = () => {
     <nav className="bg-gray-800 p-4">
       <div className="flex justify-between items-center">
         {/* Logo with hover and click animation */}
-        <Link to="/" className="flex items-center space-x-2">
+        <Link to="/home" className="flex items-center space-x-2">
           <motion.div
             whileHover={{ rotate: 360, scale: 1.2 }}
             whileTap={{ scale: 0.9 }}
@@ -76,13 +76,13 @@ const Navbar = () => {
       {/* Mobile Menu */}
       {isOpen && (
         <div
-          className="fixed inset-0 bg-gray-800 bg-opacity-90 text-white z-[9999] mt-16 overflow-y-auto"
+          className="fixed inset-0 bg-gray-800 bg-opacity-95 h-96 text-white z-[9999] mt-16 overflow-y-auto"
           style={{
             opacity: 1,
             visibility: "visible",
           }}
         >
-          <div className="px-2 pt-2 pb-3 space-y-1 sm:px-3 flex flex-col">
+          <div className="px-2 pt-2 pb-3 space-y-1 sm:px-3 flex items-center justify-center flex-col">
             {categories.map((category) => {
               const Icon = Icons[category.icon as keyof typeof Icons] as React.ComponentType<React.SVGProps<SVGSVGElement>>;
               return (

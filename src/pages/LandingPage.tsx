@@ -1,9 +1,15 @@
-import React from "react";
+import React, { useEffect, useState } from "react";
 import { Link } from "react-router-dom";
 import { Sparkles, Code2, Eye, ChevronRight, Users, Star } from "lucide-react";
 import { motion } from "framer-motion";
 
 const LandingPage = () => {
+  const [typing, setTyping] = useState(false);
+
+  useEffect(() => {
+    setTyping(true);
+  }, []);
+
   return (
     <div className="relative min-h-screen bg-black text-white flex flex-col items-center justify-center px-6 py-12">
       {/* Background Glow */}
@@ -19,9 +25,13 @@ const LandingPage = () => {
         <h1 className="text-5xl md:text-6xl font-extrabold tracking-wide bg-clip-text text-transparent bg-gradient-to-r from-cyan-400 to-purple-500">
           UI Components for the Future
         </h1>
-        <p className="text-gray-400 mt-6 max-w-2xl mx-auto text-lg sm:text-xl">
+        
+        {/* Typewriter effect */}
+        <div
+          className={`text-lg sm:text-xl text-gray-400 mt-6 max-w-2xl mx-auto ${typing ? 'typing-effect' : ''}`}
+        >
           Explore modern, sleek, and high-performance UI elements—ready to use.
-        </p>
+        </div>
       </motion.div>
 
       {/* Features Section */}
