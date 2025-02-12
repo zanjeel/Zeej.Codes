@@ -67,8 +67,8 @@ const LandingPage = () => {
         />
         <StatCard
           icon={<Code2 className="w-12 h-12 text-purple-400" />}
-          stat="500+"
-          description="UI Components"
+          stat="10k+"
+          description="Component Views"
         />
       </motion.div>
 
