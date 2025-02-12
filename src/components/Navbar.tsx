@@ -45,15 +45,15 @@ const Navbar = () => {
         <div className="hidden md:block">
           <div className="flex items-center space-x-4">
             {categories.map((category) => {
-              const Icon = Icons[category.icon as keyof typeof Icons];
+              const Icon = Icons[category.icon as keyof typeof Icons] as React.ComponentType<React.SVGProps<SVGSVGElement>>;
               return (
                 <Link
                   key={category.id}
                   to={`/category/${category.id}`}
                   className={`flex items-center space-x-2 px-3 py-2 rounded-md text-sm font-medium ${
                     location.pathname === `/category/${category.id}`
-                      ? 'bg-gray-900 text-white'
-                      : 'text-gray-300 hover:bg-gray-700 hover:text-white'
+                      ? "bg-gray-900 text-white"
+                      : "text-gray-300 hover:bg-gray-700 hover:text-white"
                   }`}
                 >
                   {Icon && <Icon className="w-4 h-4" />}
@@ -79,20 +79,20 @@ const Navbar = () => {
           className="fixed inset-0 bg-gray-800 bg-opacity-90 text-white z-[9999] mt-16 overflow-y-auto"
           style={{
             opacity: 1,
-            visibility: 'visible',
+            visibility: "visible",
           }}
         >
           <div className="px-2 pt-2 pb-3 space-y-1 sm:px-3 flex flex-col">
             {categories.map((category) => {
-              const Icon = Icons[category.icon as keyof typeof Icons];
+              const Icon = Icons[category.icon as keyof typeof Icons] as React.ComponentType<React.SVGProps<SVGSVGElement>>;
               return (
                 <Link
                   key={category.id}
                   to={`/category/${category.id}`}
                   className={`flex items-center space-x-2 px-3 py-2 rounded-md text-base font-medium ${
                     location.pathname === `/category/${category.id}`
-                      ? 'bg-gray-900 text-white'
-                      : 'text-gray-300 hover:bg-gray-700 hover:text-white'
+                      ? "bg-gray-900 text-white"
+                      : "text-gray-300 hover:bg-gray-700 hover:text-white"
                   }`}
                   onClick={() => setIsOpen(false)}
                 >

@@ -7,4 +7,7 @@ export default defineConfig({
   optimizeDeps: {
     exclude: ['lucide-react'],
   },
+  resolve: {
+    extensions: ['.ts', '.tsx', '.js', '.jsx'], // Ensure .ts and .tsx files are resolved
+  },
 });
