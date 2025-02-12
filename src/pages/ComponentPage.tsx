@@ -13,7 +13,7 @@ const ComponentPage = () => {
   const [css, setCss] = React.useState(component?.css || '');
   const [activeTab, setActiveTab] = React.useState<'html' | 'css'>('html');
   const [copied, setCopied] = useState(false);
-  const [bgColor, setBgColor] = useState('#ffffff');
+  const [bgColor, setBgColor] = useState('#000000');
   // const [textColor, setTextColor] = useState('#000000');
 
   useEffect(() => {
@@ -61,7 +61,31 @@ const ComponentPage = () => {
       </div>
 
       <div className="grid grid-cols-1 lg:grid-cols-2 gap-8">
-        <div className="bg-gray-800 rounded-lg overflow-hidden">
+        <div className="bg-gray-800 lg:h-1/6 rounded-lg overflow-hidden">
+          <div className="p-4 border-b border-gray-700">
+            <h2 className="text-lg font-medium text-white mb-4">Preview</h2>
+              <div>
+                {/* <label className="block text-sm text-gray-400 mb-1">Background</label> */}
+                <input
+                  type="color"
+                  value={bgColor}
+                  onChange={(e) => setBgColor(e.target.value)}
+                  className="w-8 h-8 rounded cursor-pointer"
+                />
+              </div>
+          </div>
+          <div className="p-8" style={{ background: bgColor }}>
+            <Preview 
+              html={html} 
+              css={css + `
+                .preview-container {
+
+                }
+              `} 
+            />
+          </div>
+        </div>
+        <div className="h-1/6 bg-gray-800 rounded-lg overflow-hidden">
           <div className="flex border-b border-gray-700">
             <button
               className={`flex-1 px-4 py-2 text-sm font-medium ${
@@ -109,29 +133,7 @@ const ComponentPage = () => {
           />
         </div>
 
-        <div className="bg-gray-800 rounded-lg overflow-hidden">
-          <div className="p-4 border-b border-gray-700">
-            <h2 className="text-lg text-center font-medium w-full text-white mb-4">Preview</h2>
-              <div>
-                {/* <label className="block text-sm text-gray-400 mb-1">Background</label> */}
-                <input
-                  type="color"
-                  value={bgColor}
-                  onChange={(e) => setBgColor(e.target.value)}
-                  className="w-8 h-8 rounded cursor-pointer"
-                />
-              </div>
-          </div>
-          <div className="p-8" style={{ background: bgColor }}>
-            <Preview 
-              html={html} 
-              css={css + `
-                .preview-container {
-                }
-              `} 
-            />
-          </div>
-        </div>
+        
       </div>
     </div>
   );

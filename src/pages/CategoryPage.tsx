@@ -173,7 +173,7 @@ const CategoryPage = () => {
             key={component.id}
             className="bg-gray-800 rounded-lg overflow-hidden border border-gray-700 hover:border-cyan-400 transition-colors"
           >
-            <div className="p-6 bg-gray-900">
+            <div className="p-6 h-96 bg-gray-900">
               <div
                 className="preview-container"
                 dangerouslySetInnerHTML={{
