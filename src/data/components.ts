@@ -488,8 +488,8 @@ export const components: Component[] = [
     css: `/* From Uiverse.io by Smit-Prajapati */ 
 .container {
   position: relative;
-  background: linear-gradient(135deg, rgb(179, 208, 253) 0%, rgb(164, 202, 248) 100%);
-  border-radius: 1000px;
+ background: linear-gradient(135deg, rgb(255, 182, 193) 0%, rgb(255, 105, 180) 100%);
+ border-radius: 1000px;
   padding: 10px;
   display: grid;
   place-content: center;
@@ -641,9 +641,7 @@ export const components: Component[] = [
     description: 'A loader that gives your website a modern, dark and sleek look',
     category: 'loaders',
     views: 1337,
-    html: `<!-- From Uiverse.io by Ratinax --> 
-
-<div class="loader">
+    html: `<div class="loader">
       <div class="intern">
       </div>
   <div class="external-shadow">
@@ -653,14 +651,13 @@ export const components: Component[] = [
 </div>
 `,
     css: `
-/* From Uiverse.io by Ratinax */ 
 .loader {
   display: flex;
   justify-content: center;
   align-items: center;
   position: relative;
   cursor: not-allowed;
-  scale: 0.7;
+  scale: 0.9;
 }
 
 .central {
@@ -671,10 +668,10 @@ export const components: Component[] = [
   width: 10em;
   height: 10em;
   border-radius: 50%;
-  box-shadow: 0.5em 1em 1em blueviolet,
-    -0.5em 0.5em 1em blue,
-    0.5em -0.5em 1em purple,
-    -0.5em -0.5em 1em cyan;
+box-shadow: 0.5em 1em 1em #FF77FF,   
+  -0.5em 0.5em 1em #FF8C00,       
+  0.5em -0.5em 1em #00BFFF,        
+  -0.5em -0.5em 1em #ADFF2F;        
 }
 
 .external-shadow {
@@ -786,7 +783,7 @@ export const components: Component[] = [
       <div class="control maximize"></div>
     </div>
   </div>
-  <div class="text">Loading...</div>
+  <div class="text">Executing...</div>
 </div>
 `,
     css: `
@@ -1324,8 +1321,9 @@ input:checked + .slider:before {
   width: 24rem;
   height: 11rem;
   border: 1px solid #e2e8f0;
-  border-radius: 0.5rem;
-  background-color: #fafafa;
+  border-radius: 1rem;
+  border: 1px solid #808080; 
+  background-color: #e0e0e0; ;
   padding: 0.75rem 1.5rem;
 }
 
@@ -1363,7 +1361,7 @@ input:checked + .slider:before {
 .header-text {
   font-weight: 800;
   font-size: 1.5rem;
-  color: #7e22ce;
+  color: #FF69B4;
 }
 
 .subtext {
@@ -1378,6 +1376,7 @@ input:checked + .slider:before {
 .input-wrapper {
   position: relative;
   width: 16rem;
+  border: 1px solid #808080; 
   border-radius: 0.5rem;
   overflow: hidden;
 }
@@ -1422,17 +1421,17 @@ input:checked + .slider:before {
 }
 
 .input-field::placeholder {
-  color: #7c3aed;
+  color: #FF00FF;
   opacity: 0.6;
 }
 
 .input-field:focus {
-  border-color: #7c3aed;
+  border-color: #FF69B4;
   box-shadow: 0 0 0 2px rgba(124, 58, 237, 0.5);
 }
 
 .subscribe-btn {
-  background-color: #7c3aed;
+  background-color: #FF69B4;
   color: #f9fafb;
   padding: 0.5rem 1.25rem;
   border-radius: 0.375rem;
