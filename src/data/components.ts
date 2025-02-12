@@ -457,9 +457,15 @@ export const components: Component[] = [
     rgba(94, 58, 238, 1) 0%,
     rgba(197, 107, 240, 1) 100%
   );
-
+   color: white;
+  z-index:1;
   font-size: 1rem;
   color: var(--white);
+  font-weight:bold;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
   border: 0;
   border-radius: 9999px;
   box-shadow: inset 0 -2px 25px -4px var(--white);
@@ -550,14 +556,14 @@ export const components: Component[] = [
   width: 50px;
   aspect-ratio: 1;
   border-left: 0px solid black;
-  border-bottom: 3px solid transparent;
+  border-bottom: 5px solid transparent;
   border-radius: 50%;
   padding-left: 12px;
   margin-right: 10px;
 }
 
 .search__icon:hover {
-  border-left: 3px solid black;
+  width: 60px;
 }
 
 .search__icon path {
@@ -945,8 +951,7 @@ input:checked + .slider:before {
     description: 'Cyberpunk-style toggle switch',
     category: 'toggles',
     views: 987,
-    html: `<!-- From Uiverse.io by RiccardoRapelli --> 
-<label class="switch">
+    html: `<label class="switch">
   <input id="input" type="checkbox" checked="darkTheme" />
   <div class="slider round">
     <div class="sun-moon">
@@ -1013,8 +1018,7 @@ input:checked + .slider:before {
   </div>
 </label>
 `,
-    css: `/* From Uiverse.io by RiccardoRapelli */ 
-.switch {
+    css: `.switch {
   position: relative;
   display: inline-block;
   width: 60px;
@@ -1294,7 +1298,7 @@ input:checked + .slider:before {
     description: 'Modern glass-effect card design',
     category: 'cards',
     views: 1432,
-    html: `<form class="form-container">
+    html: `<div class="form-container">
   <div class="header-container">
     <span class="header-text">Sign Up</span>
     <p class="subtext">
@@ -1308,7 +1312,7 @@ input:checked + .slider:before {
     </div>
     <button class="subscribe-btn">Subscribe</button>
   </div>
-</form>
+</div>
 `,
     css: `.form-container {
   color: #2d3748;
