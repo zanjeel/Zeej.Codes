@@ -75,7 +75,7 @@ export const components: Component[] = [
     description: 'A beautiful contact me button with spinning effect and hover animation',
     category: 'buttons',
     views: 1234,
-    html: `<!-- From Uiverse.io by Creatlydev --> 
+    html: `
 <button class="button">
   <p class="button__text">
     <span style="--index: 0;">C</span>
@@ -164,11 +164,11 @@ export const components: Component[] = [
   height: 40px;
   overflow: hidden;
   background: #fff;
-  color: #000000;
-  border-radius: 50%;
-  display: flex;
-  align-items: center;
-  justify-content: center;
+  color:#000000;
+  border-radius:50%;
+  display:flex;
+  align-items:center;
+  justify-content:center;
 }
 
 .button__icon--copy {
@@ -478,7 +478,7 @@ export const components: Component[] = [
     description: 'Smooth design with a delicate label Input',
     category: 'inputs',
     views: 654,
-    html: `<!-- From Uiverse.io by Smit-Prajapati --> 
+    html: ` 
 <div class="container">
 <div class="search-container">
   <input class="input" type="text">
@@ -491,7 +491,7 @@ export const components: Component[] = [
 </div>
 </div>
 `,
-    css: `/* From Uiverse.io by Smit-Prajapati */ 
+    css: `
 .container {
   position: relative;
  background: linear-gradient(135deg, rgb(255, 182, 193) 0%, rgb(255, 105, 180) 100%);
@@ -779,7 +779,7 @@ box-shadow: 0.5em 1em 1em #FF77FF,
     description: 'A developer console beautiful loading screen',
     category: 'loaders',
     views: 1567,
-    html: `<!-- From Uiverse.io by creator1116 --> 
+    html: `
 <div class="terminal-loader">
   <div class="terminal-header">
     <div class="terminal-title">Status</div>

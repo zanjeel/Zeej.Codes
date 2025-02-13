@@ -100,7 +100,7 @@ const ComponentPage = () => {
             <button
               className={`flex-1 px-4 py-2 text-sm font-medium ${
                 activeTab === 'css'
-                  ? 'bg-gray-700 text-white'
+                  ? 'bg-gray-700 text-white  u'
                   : 'text-gray-400 hover:text-white hover:bg-gray-700'
               }`}
               onClick={() => setActiveTab('css')}
