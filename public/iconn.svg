@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="#800080" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+  <!-- Black Background Circle -->
+  <circle cx="12" cy="12" r="11" fill="white"></circle>
+  
+  <!-- Perfectly Centered `</>` Developer Symbol in Purple -->
+  <g transform="translate(4 4) scale(0.7)"> 
+    <polyline points="14 16 20 12 14 8"></polyline>
+    <polyline points="10 8 4 12 10 16"></polyline>
+    <line x1="12" y1="6" x2="12" y2="18"></line>
+  </g>
+</svg>
