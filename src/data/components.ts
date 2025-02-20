@@ -12,63 +12,122 @@ export const categories: Category[] = [
 
 
 export const components: Component[] = [
-//   {
-//     id: 'button-1',
-//     name: 'Neon Pulse Button',
-//     description: 'A beautiful neon button with pulse effect',
-//     category: 'buttons',
-//     views: 1234,
-//     html: `<button class="neon-button">
-//   Hover me
-// </button>`,
-//     css: `.neon-button {
-//   padding: 1rem 2rem;
-//   font-size: 1rem;
-//   font-weight: 600;
-//   color: #fff;
-//   background: #2d2d2d;
-//   border: 2px solid #0ff;
-//   border-radius: 8px;
-//   cursor: pointer;
-//   position: relative;
-//   transition: all 0.3s ease;
-//   text-shadow: 0 0 8px #0ff;
-// }
 
-// .neon-button:hover {
-//   background: #0ff;
-//   color: #000;
-//   box-shadow: 0 0 20px #0ff;
-// }`
-//   },
-//   {
-//     id: 'button-2',
-//     name: 'Gradient Morph Button',
-//     description: 'Morphing gradient background button',
-//     category: 'buttons',
-//     views: 892,
-//     html: `<button class="morph-button">
-//   Click me
-// </button>`,
-//     css: `.morph-button {
-//   padding: 1rem 2.5rem;
-//   font-size: 1rem;
-//   font-weight: 500;
-//   color: white;
-//   background: linear-gradient(45deg, #ff6b6b, #ff8e53);
-//   border: none;
-//   border-radius: 25px;
-//   cursor: pointer;
-//   transition: all 0.3s ease;
-//   box-shadow: 0 4px 15px rgba(255, 107, 107, 0.3);
-// }
+  {
+    id: 'button-1',
+    name: 'Neon Pulse Button',
+    description: 'A beautiful neon button with pulse effect',
+    category: 'buttons',
+    views: 1234,
+    html: `<button class="neon-button">
+  Hover me
+</button>`,
+    css: `.neon-button {
+  padding: 1rem 2rem;
+  font-size: 1rem;
+  font-weight: 600;
+  color: #fff;
+  background: #2d2d2d;
+  border: 2px solid #0ff;
+  border-radius: 8px;
+  cursor: pointer;
+  position: relative;
+  transition: all 0.3s ease;
+  text-shadow: 0 0 8px #0ff;
+}
 
-// .morph-button:hover {
-//   background: linear-gradient(45deg, #ff8e53, #ff6b6b);
-//   transform: translateY(-2px);
-//   box-shadow: 0 6px 20px rgba(255, 107, 107, 0.4);
-// }`
-//   },
+.neon-button:hover {
+  background: #0ff;
+  color: #000;
+  box-shadow: 0 0 20px #0ff;
+}`
+  },
+  {
+    id: 'button-2',
+    name: 'Gradient Morph Button',
+    description: 'Morphing gradient background button',
+    category: 'buttons',
+    views: 892,
+    html: `<button class="morph-button">
+  Click me
+</button>`,
+    css: `.morph-button {
+  padding: 1rem 2.5rem;
+  font-size: 1rem;
+  font-weight: 500;
+  color: white;
+  background: linear-gradient(45deg, #ff6b6b, #ff8e53);
+  border: none;
+  border-radius: 25px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  box-shadow: 0 4px 15px rgba(255, 107, 107, 0.3);
+}
+
+.morph-button:hover {
+  background: linear-gradient(45deg, #ff8e53, #ff6b6b);
+  transform: translateY(-2px);
+  box-shadow: 0 6px 20px rgba(255, 107, 107, 0.4);
+}`
+  },
+
+  {
+    id: 'button-1',
+    name: 'Neon Pulse Button',
+    description: 'A beautiful neon button with pulse effect',
+    category: 'buttons',
+    views: 1234,
+    html: `<button class="neon-button">
+  Hover me
+</button>`,
+    css: `.neon-button {
+  padding: 1rem 2rem;
+  font-size: 1rem;
+  font-weight: 600;
+  color: #fff;
+  background: #2d2d2d;
+  border: 2px solid #0ff;
+  border-radius: 8px;
+  cursor: pointer;
+  position: relative;
+  transition: all 0.3s ease;
+  text-shadow: 0 0 8px #0ff;
+}
+
+.neon-button:hover {
+  background: #0ff;
+  color: #000;
+  box-shadow: 0 0 20px #0ff;
+}`
+  },
+  {
+    id: 'button-2',
+    name: 'Gradient Morph Button',
+    description: 'Morphing gradient background button',
+    category: 'buttons',
+    views: 892,
+    html: `<button class="morph-button">
+  Click me
+</button>`,
+    css: `.morph-button {
+  padding: 1rem 2.5rem;
+  font-size: 1rem;
+  font-weight: 500;
+  color: white;
+  background: linear-gradient(45deg, #ff6b6b, #ff8e53);
+  border: none;
+  border-radius: 25px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  box-shadow: 0 4px 15px rgba(255, 107, 107, 0.3);
+}
+
+.morph-button:hover {
+  background: linear-gradient(45deg, #ff8e53, #ff6b6b);
+  transform: translateY(-2px);
+  box-shadow: 0 6px 20px rgba(255, 107, 107, 0.4);
+}`
+  },
   {
     id: 'button-3',
     name: 'Spinning Contact Me Button',
