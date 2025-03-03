@@ -202,749 +202,749 @@ export const components: Component[] = [
 }
 `
   },
-//   {
-//     id: 'card-2',
-//     name: 'Cyberpunk Product Info ',
-//     description: 'Futuristic Info card with beuatiful undertones',
-//     category: 'cards',
-//     views: 856,
-//     html: `<div class="card">
-//   <div class="card__border"></div>
-//   <div class="card_title__container">
-//     <span class="card_title">Exclusive Product</span>
-//     <p class="card_paragraph">
-//       Product so good, you can't refuse it how much you try.
-//     </p>
-//   </div>
-//   <hr class="line" />
-//   <ul class="card__list">
-//     <li class="card__list_item">
-//       <span class="check">
-//         <svg
-//           xmlns="http://www.w3.org/2000/svg"
-//           viewBox="0 0 16 16"
-//           fill="currentColor"
-//           class="check_svg"
-//         >
-//           <path
-//             fill-rule="evenodd"
-//             d="M12.416 3.376a.75.75 0 0 1 .208 1.04l-5 7.5a.75.75 0 0 1-1.154.114l-3-3a.75.75 0 0 1 1.06-1.06l2.353 2.353 4.493-6.74a.75.75 0 0 1 1.04-.207Z"
-//             clip-rule="evenodd"
-//           ></path>
-//         </svg>
-//       </span>
-//       <span class="list_text">10 Launch Weeks</span>
-//     </li>
-//     <li class="card__list_item">
-//       <span class="check">
-//         <svg
-//           xmlns="http://www.w3.org/2000/svg"
-//           viewBox="0 0 16 16"
-//           fill="currentColor"
-//           class="check_svg"
-//         >
-//           <path
-//             fill-rule="evenodd"
-//             d="M12.416 3.376a.75.75 0 0 1 .208 1.04l-5 7.5a.75.75 0 0 1-1.154.114l-3-3a.75.75 0 0 1 1.06-1.06l2.353 2.353 4.493-6.74a.75.75 0 0 1 1.04-.207Z"
-//             clip-rule="evenodd"
-//           ></path>
-//         </svg>
-//       </span>
-//       <span class="list_text">10 Influencers Post</span>
-//     </li>
-//     <li class="card__list_item">
-//       <span class="check">
-//         <svg
-//           xmlns="http://www.w3.org/2000/svg"
-//           viewBox="0 0 16 16"
-//           fill="currentColor"
-//           class="check_svg"
-//         >
-//           <path
-//             fill-rule="evenodd"
-//             d="M12.416 3.376a.75.75 0 0 1 .208 1.04l-5 7.5a.75.75 0 0 1-1.154.114l-3-3a.75.75 0 0 1 1.06-1.06l2.353 2.353 4.493-6.74a.75.75 0 0 1 1.04-.207Z"
-//             clip-rule="evenodd"
-//           ></path>
-//         </svg>
-//       </span>
-//       <span class="list_text">100.000 Views</span>
-//     </li>
-//     <li class="card__list_item">
-//       <span class="check">
-//         <svg
-//           xmlns="http://www.w3.org/2000/svg"
-//           viewBox="0 0 16 16"
-//           fill="currentColor"
-//           class="check_svg"
-//         >
-//           <path
-//             fill-rule="evenodd"
-//             d="M12.416 3.376a.75.75 0 0 1 .208 1.04l-5 7.5a.75.75 0 0 1-1.154.114l-3-3a.75.75 0 0 1 1.06-1.06l2.353 2.353 4.493-6.74a.75.75 0 0 1 1.04-.207Z"
-//             clip-rule="evenodd"
-//           ></path>
-//         </svg>
-//       </span>
-//       <span class="list_text">10 Reddit Posts</span>
-//     </li>
-//     <li class="card__list_item">
-//       <span class="check">
-//         <svg
-//           xmlns="http://www.w3.org/2000/svg"
-//           viewBox="0 0 16 16"
-//           fill="currentColor"
-//           class="check_svg"
-//         >
-//           <path
-//             fill-rule="evenodd"
-//             d="M12.416 3.376a.75.75 0 0 1 .208 1.04l-5 7.5a.75.75 0 0 1-1.154.114l-3-3a.75.75 0 0 1 1.06-1.06l2.353 2.353 4.493-6.74a.75.75 0 0 1 1.04-.207Z"
-//             clip-rule="evenodd"
-//           ></path>
-//         </svg>
-//       </span>
-//       <span class="list_text">2 Hours Marketing Consultation</span>
-//     </li>
-//   </ul>
-//   <button class="button">Discover</button>
-// </div>
+  {
+    id: 'card-2',
+    name: 'Cyberpunk Product Info ',
+    description: 'Futuristic Info card with beuatiful undertones',
+    category: 'cards',
+    views: 856,
+    html: `<div class="card">
+  <div class="card__border"></div>
+  <div class="card_title__container">
+    <span class="card_title">Exclusive Product</span>
+    <p class="card_paragraph">
+      Product so good, you can't refuse it how much you try.
+    </p>
+  </div>
+  <hr class="line" />
+  <ul class="card__list">
+    <li class="card__list_item">
+      <span class="check">
+        <svg
+          xmlns="http://www.w3.org/2000/svg"
+          viewBox="0 0 16 16"
+          fill="currentColor"
+          class="check_svg"
+        >
+          <path
+            fill-rule="evenodd"
+            d="M12.416 3.376a.75.75 0 0 1 .208 1.04l-5 7.5a.75.75 0 0 1-1.154.114l-3-3a.75.75 0 0 1 1.06-1.06l2.353 2.353 4.493-6.74a.75.75 0 0 1 1.04-.207Z"
+            clip-rule="evenodd"
+          ></path>
+        </svg>
+      </span>
+      <span class="list_text">10 Launch Weeks</span>
+    </li>
+    <li class="card__list_item">
+      <span class="check">
+        <svg
+          xmlns="http://www.w3.org/2000/svg"
+          viewBox="0 0 16 16"
+          fill="currentColor"
+          class="check_svg"
+        >
+          <path
+            fill-rule="evenodd"
+            d="M12.416 3.376a.75.75 0 0 1 .208 1.04l-5 7.5a.75.75 0 0 1-1.154.114l-3-3a.75.75 0 0 1 1.06-1.06l2.353 2.353 4.493-6.74a.75.75 0 0 1 1.04-.207Z"
+            clip-rule="evenodd"
+          ></path>
+        </svg>
+      </span>
+      <span class="list_text">10 Influencers Post</span>
+    </li>
+    <li class="card__list_item">
+      <span class="check">
+        <svg
+          xmlns="http://www.w3.org/2000/svg"
+          viewBox="0 0 16 16"
+          fill="currentColor"
+          class="check_svg"
+        >
+          <path
+            fill-rule="evenodd"
+            d="M12.416 3.376a.75.75 0 0 1 .208 1.04l-5 7.5a.75.75 0 0 1-1.154.114l-3-3a.75.75 0 0 1 1.06-1.06l2.353 2.353 4.493-6.74a.75.75 0 0 1 1.04-.207Z"
+            clip-rule="evenodd"
+          ></path>
+        </svg>
+      </span>
+      <span class="list_text">100.000 Views</span>
+    </li>
+    <li class="card__list_item">
+      <span class="check">
+        <svg
+          xmlns="http://www.w3.org/2000/svg"
+          viewBox="0 0 16 16"
+          fill="currentColor"
+          class="check_svg"
+        >
+          <path
+            fill-rule="evenodd"
+            d="M12.416 3.376a.75.75 0 0 1 .208 1.04l-5 7.5a.75.75 0 0 1-1.154.114l-3-3a.75.75 0 0 1 1.06-1.06l2.353 2.353 4.493-6.74a.75.75 0 0 1 1.04-.207Z"
+            clip-rule="evenodd"
+          ></path>
+        </svg>
+      </span>
+      <span class="list_text">10 Reddit Posts</span>
+    </li>
+    <li class="card__list_item">
+      <span class="check">
+        <svg
+          xmlns="http://www.w3.org/2000/svg"
+          viewBox="0 0 16 16"
+          fill="currentColor"
+          class="check_svg"
+        >
+          <path
+            fill-rule="evenodd"
+            d="M12.416 3.376a.75.75 0 0 1 .208 1.04l-5 7.5a.75.75 0 0 1-1.154.114l-3-3a.75.75 0 0 1 1.06-1.06l2.353 2.353 4.493-6.74a.75.75 0 0 1 1.04-.207Z"
+            clip-rule="evenodd"
+          ></path>
+        </svg>
+      </span>
+      <span class="list_text">2 Hours Marketing Consultation</span>
+    </li>
+  </ul>
+  <button class="button">Discover</button>
+</div>
 
-// `,
-//     css: `
-// .card {
-//   --white: hsl(0, 0%, 100%);
-//   --black: hsl(240, 15%, 9%);
-//   --paragraph: hsl(0, 0%, 83%);
-//   --line: hsl(240, 9%, 17%);
-//   --primary: hsl(266, 92%, 58%);
+`,
+    css: `
+.card {
+  --white: hsl(0, 0%, 100%);
+  --black: hsl(240, 15%, 9%);
+  --paragraph: hsl(0, 0%, 83%);
+  --line: hsl(240, 9%, 17%);
+  --primary: hsl(266, 92%, 58%);
 
-//   position: relative;
+  position: relative;
 
-//   display: flex;
-//   flex-direction: column;
-//   gap: 1rem;
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
 
-//   padding: 1rem;
-//   width: 19rem;
-//   background-color: hsla(240, 15%, 9%, 1);
-//   background-image: radial-gradient(
-//       at 88% 40%,
-//       hsla(240, 15%, 9%, 1) 0px,
-//       transparent 85%
-//     ),
-//     radial-gradient(at 49% 30%, hsla(240, 15%, 9%, 1) 0px, transparent 85%),
-//     radial-gradient(at 14% 26%, hsla(240, 15%, 9%, 1) 0px, transparent 85%),
-//     radial-gradient(at 0% 64%, hsla(263, 93%, 56%, 1) 0px, transparent 85%),
-//     radial-gradient(at 41% 94%, hsla(284, 100%, 84%, 1) 0px, transparent 85%),
-//     radial-gradient(at 100% 99%, hsla(306, 100%, 57%, 1) 0px, transparent 85%);
+  padding: 1rem;
+  width: 19rem;
+  background-color: hsla(240, 15%, 9%, 1);
+  background-image: radial-gradient(
+      at 88% 40%,
+      hsla(240, 15%, 9%, 1) 0px,
+      transparent 85%
+    ),
+    radial-gradient(at 49% 30%, hsla(240, 15%, 9%, 1) 0px, transparent 85%),
+    radial-gradient(at 14% 26%, hsla(240, 15%, 9%, 1) 0px, transparent 85%),
+    radial-gradient(at 0% 64%, hsla(263, 93%, 56%, 1) 0px, transparent 85%),
+    radial-gradient(at 41% 94%, hsla(284, 100%, 84%, 1) 0px, transparent 85%),
+    radial-gradient(at 100% 99%, hsla(306, 100%, 57%, 1) 0px, transparent 85%);
 
-//   border-radius: 1rem;
-//   box-shadow: 0px -16px 24px 0px rgba(255, 255, 255, 0.25) inset;
-// }
+  border-radius: 1rem;
+  box-shadow: 0px -16px 24px 0px rgba(255, 255, 255, 0.25) inset;
+}
 
-// .card .card__border {
-//   overflow: hidden;
-//   pointer-events: none;
+.card .card__border {
+  overflow: hidden;
+  pointer-events: none;
 
-//   position: absolute;
-//   z-index: -10;
-//   top: 50%;
-//   left: 50%;
-//   transform: translate(-50%, -50%);
+  position: absolute;
+  z-index: -10;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
 
-//   width: calc(100% + 2px);
-//   height: calc(100% + 2px);
-//   background-image: linear-gradient(
-//     0deg,
-//     hsl(0, 0%, 100%) -50%,
-//     hsl(0, 0%, 40%) 100%
-//   );
+  width: calc(100% + 2px);
+  height: calc(100% + 2px);
+  background-image: linear-gradient(
+    0deg,
+    hsl(0, 0%, 100%) -50%,
+    hsl(0, 0%, 40%) 100%
+  );
 
-//   border-radius: 1rem;
-// }
+  border-radius: 1rem;
+}
 
-// .card .card__border::before {
-//   content: "";
-//   pointer-events: none;
+.card .card__border::before {
+  content: "";
+  pointer-events: none;
 
-//   position: fixed;
-//   z-index: 200;
-//   top: 50%;
-//   left: 50%;
-//   transform: translate(-50%, -50%), rotate(0deg);
-//   transform-origin: left;
-//   width: 200%;
-//   height: 10rem;
-//   background-image: linear-gradient(
-//     0deg,
-//     hsla(0, 0%, 100%, 0) 0%,
-//     hsl(277, 95%, 60%) 40%,
-//     hsl(277, 95%, 60%) 60%,
-//     hsla(0, 0%, 40%, 0) 100%
-//   );
+  position: fixed;
+  z-index: 200;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%), rotate(0deg);
+  transform-origin: left;
+  width: 200%;
+  height: 10rem;
+  background-image: linear-gradient(
+    0deg,
+    hsla(0, 0%, 100%, 0) 0%,
+    hsl(277, 95%, 60%) 40%,
+    hsl(277, 95%, 60%) 60%,
+    hsla(0, 0%, 40%, 0) 100%
+  );
 
-//   animation: rotate 8s linear infinite;
-// }
+  animation: rotate 8s linear infinite;
+}
 
-// @keyframes rotate {
-//   to {
-//     transform: rotate(360deg);
-//   }
-// }
+@keyframes rotate {
+  to {
+    transform: rotate(360deg);
+  }
+}
 
-// .card .card_title__container .card_title {
-//   font-size: 1.5rem;
-//   color: var(--white);
-// }
+.card .card_title__container .card_title {
+  font-size: 1.5rem;
+  color: var(--white);
+}
 
-// .card .card_title__container .card_paragraph {
-//   margin-top: 0.25rem;
-//   width: 65%;
+.card .card_title__container .card_paragraph {
+  margin-top: 0.25rem;
+  width: 65%;
 
-//   font-size: 0.7rem;
-//   color: var(--paragraph);
-// }
+  font-size: 0.7rem;
+  color: var(--paragraph);
+}
 
-// .card .line {
-//   width: 100%;
-//   height: 0.1rem;
-//   background-color: var(--line);
+.card .line {
+  width: 100%;
+  height: 0.1rem;
+  background-color: var(--line);
 
-//   border: none;
-// }
+  border: none;
+}
 
-// .card .card__list {
-//   display: flex;
-//   flex-direction: column;
-//   gap: 0.5rem;
-// }
+.card .card__list {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
 
-// .card .card__list .card__list_item {
-//   display: flex;
-//   align-items: center;
-//   gap: 0.5rem;
-// }
+.card .card__list .card__list_item {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
 
-// .card .card__list .card__list_item .check {
-//   display: flex;
-//   justify-content: center;
-//   align-items: center;
+.card .card__list .card__list_item .check {
+  display: flex;
+  justify-content: center;
+  align-items: center;
 
-//   width: 1rem;
-//   height: 1rem;
-//   background-color: var(--primary);
+  width: 1rem;
+  height: 1rem;
+  background-color: var(--primary);
 
-//   border-radius: 50%;
-// }
+  border-radius: 50%;
+}
 
-// .card .card__list .card__list_item .check .check_svg {
-//   width: 0.75rem;
-//   height: 0.75rem;
+.card .card__list .card__list_item .check .check_svg {
+  width: 0.75rem;
+  height: 0.75rem;
 
-//   fill: var(--black);
-// }
+  fill: var(--black);
+}
 
-// .card .card__list .card__list_item .list_text {
-//   font-size: 0.75rem;
-//   color: var(--white);
-// }
+.card .card__list .card__list_item .list_text {
+  font-size: 0.75rem;
+  color: var(--white);
+}
 
-// .card .button {
-//   cursor: pointer;
-//   padding: 0.5rem;
-//   width: 100%;
-//   height: 100%;
-//   background-image: linear-gradient(
-//     0deg,
-//     rgba(94, 58, 238, 1) 0%,
-//     rgba(197, 107, 240, 1) 100%
-//   );
-//    color: white;
-//   z-index:1;
-//   font-size: 1rem;
-//   color: var(--white);
-//   font-weight:bold;
-//   display: flex;
-//   align-items: center;
-//   justify-content: center;
-//   text-align: center;
-//   border: 0;
-//   border-radius: 9999px;
-//   box-shadow: inset 0 -2px 25px -4px var(--white);
-// }
-// `
-//   },
-//   {
-//     id: 'input-2',
-//     name: 'Search Input',
-//     description: 'Smooth design with a delicate label Input',
-//     category: 'inputs',
-//     views: 654,
-//     html: ` 
-// <div class="container">
-// <div class="search-container">
-//   <input class="input" type="text">
-//   <svg viewBox="0 0 24 24" class="search__icon">
-//     <g>
-//       <path d="M21.53 20.47l-3.66-3.66C19.195 15.24 20 13.214 20 11c0-4.97-4.03-9-9-9s-9 4.03-9 9 4.03 9 9 9c2.215 0 4.24-.804 5.808-2.13l3.66 3.66c.147.146.34.22.53.22s.385-.073.53-.22c.295-.293.295-.767.002-1.06zM3.5 11c0-4.135 3.365-7.5 7.5-7.5s7.5 3.365 7.5 7.5-3.365 7.5-7.5 7.5-7.5-3.365-7.5-7.5z">
-//       </path>
-//     </g>
-//   </svg>
-// </div>
-// </div>
-// `,
-//     css: `
-// .container {
-//   position: relative;
-//  background: linear-gradient(135deg, rgb(255, 182, 193) 0%, rgb(255, 105, 180) 100%);
-//  border-radius: 1000px;
-//   padding: 10px;
-//   display: grid;
-//   place-content: center;
-//   z-index: 0;
-//   max-width: 300px;
-//   margin: 0 10px;
-// }
+.card .button {
+  cursor: pointer;
+  padding: 0.5rem;
+  width: 100%;
+  height: 100%;
+  background-image: linear-gradient(
+    0deg,
+    rgba(94, 58, 238, 1) 0%,
+    rgba(197, 107, 240, 1) 100%
+  );
+   color: white;
+  z-index:1;
+  font-size: 1rem;
+  color: var(--white);
+  font-weight:bold;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  border: 0;
+  border-radius: 9999px;
+  box-shadow: inset 0 -2px 25px -4px var(--white);
+}
+`
+  },
+  {
+    id: 'input-2',
+    name: 'Search Input',
+    description: 'Smooth design with a delicate label Input',
+    category: 'inputs',
+    views: 654,
+    html: ` 
+<div class="container">
+<div class="search-container">
+  <input class="input" type="text">
+  <svg viewBox="0 0 24 24" class="search__icon">
+    <g>
+      <path d="M21.53 20.47l-3.66-3.66C19.195 15.24 20 13.214 20 11c0-4.97-4.03-9-9-9s-9 4.03-9 9 4.03 9 9 9c2.215 0 4.24-.804 5.808-2.13l3.66 3.66c.147.146.34.22.53.22s.385-.073.53-.22c.295-.293.295-.767.002-1.06zM3.5 11c0-4.135 3.365-7.5 7.5-7.5s7.5 3.365 7.5 7.5-3.365 7.5-7.5 7.5-7.5-3.365-7.5-7.5z">
+      </path>
+    </g>
+  </svg>
+</div>
+</div>
+`,
+    css: `
+.container {
+  position: relative;
+ background: linear-gradient(135deg, rgb(255, 182, 193) 0%, rgb(255, 105, 180) 100%);
+ border-radius: 1000px;
+  padding: 10px;
+  display: grid;
+  place-content: center;
+  z-index: 0;
+  max-width: 300px;
+  margin: 0 10px;
+}
 
-// .search-container {
-//   position: relative;
-//   width: 100%;
-//   border-radius: 50px;
-//   background: linear-gradient(135deg, rgb(218, 232, 247) 0%, rgb(214, 229, 247) 100%);
-//   padding: 5px;
-//   display: flex;
-//   align-items: center;
-// }
+.search-container {
+  position: relative;
+  width: 100%;
+  border-radius: 50px;
+  background: linear-gradient(135deg, rgb(218, 232, 247) 0%, rgb(214, 229, 247) 100%);
+  padding: 5px;
+  display: flex;
+  align-items: center;
+}
 
-// .search-container::after, .search-container::before {
-//   content: "";
-//   width: 100%;
-//   height: 100%;
-//   border-radius: inherit;
-//   position: absolute;
-// }
+.search-container::after, .search-container::before {
+  content: "";
+  width: 100%;
+  height: 100%;
+  border-radius: inherit;
+  position: absolute;
+}
 
-// .search-container::before {
-//   top: -1px;
-//   left: -1px;
-//   background: linear-gradient(0deg, rgb(218, 232, 247) 0%, rgb(255, 255, 255) 100%);
-//   z-index: -1;
-// }
+.search-container::before {
+  top: -1px;
+  left: -1px;
+  background: linear-gradient(0deg, rgb(218, 232, 247) 0%, rgb(255, 255, 255) 100%);
+  z-index: -1;
+}
 
-// .search-container::after {
-//   bottom: -1px;
-//   right: -1px;
-//   background: linear-gradient(0deg, rgb(163, 206, 255) 0%, rgb(211, 232, 255) 100%);
-//   box-shadow: rgba(79, 156, 232, 0.7019607843) 3px 3px 5px 0px, rgba(79, 156, 232, 0.7019607843) 5px 5px 20px 0px;
-//   z-index: -2;
-// }
+.search-container::after {
+  bottom: -1px;
+  right: -1px;
+  background: linear-gradient(0deg, rgb(163, 206, 255) 0%, rgb(211, 232, 255) 100%);
+  box-shadow: rgba(79, 156, 232, 0.7019607843) 3px 3px 5px 0px, rgba(79, 156, 232, 0.7019607843) 5px 5px 20px 0px;
+  z-index: -2;
+}
 
-// .input {
-//   padding: 10px;
-//   width: 100%;
-//   background: linear-gradient(135deg, rgb(218, 232, 247) 0%, rgb(214, 229, 247) 100%);
-//   border: none;
-//   color: #9EBCD9;
-//   font-size: 20px;
-//   border-radius: 50px;
-// }
+.input {
+  padding: 10px;
+  width: 100%;
+  background: linear-gradient(135deg, rgb(218, 232, 247) 0%, rgb(214, 229, 247) 100%);
+  border: none;
+  color: #9EBCD9;
+  font-size: 20px;
+  border-radius: 50px;
+}
 
-// .input:focus {
-//   outline: none;
-//   background: linear-gradient(135deg, rgb(239, 247, 255) 0%, rgb(214, 229, 247) 100%);
-// }
+.input:focus {
+  outline: none;
+  background: linear-gradient(135deg, rgb(239, 247, 255) 0%, rgb(214, 229, 247) 100%);
+}
 
-// .search__icon {
-//   width: 50px;
-//   aspect-ratio: 1;
-//   border-left: 0px solid black;
-//   border-bottom: 5px solid transparent;
-//   border-radius: 50%;
-//   padding-left: 12px;
-//   margin-right: 10px;
-// }
+.search__icon {
+  width: 50px;
+  aspect-ratio: 1;
+  border-left: 0px solid black;
+  border-bottom: 5px solid transparent;
+  border-radius: 50%;
+  padding-left: 12px;
+  margin-right: 10px;
+}
 
-// .search__icon:hover {
-//   width: 60px;
-// }
+.search__icon:hover {
+  width: 60px;
+}
 
-// .search__icon path {
-//   fill: black;
-// }`
-//   },
+.search__icon path {
+  fill: black;
+}`
+  },
   
-//   {
-//     id: 'loader-1',
-//     name: 'Quantum Loader',
-//     description: 'Mesmerizing loading animation',
-//     category: 'loaders',
-//     views: 2341,
-//     html: `<div class="quantum-loader">
-//   <div class="circle"></div>
-//   <div class="circle"></div>
-//   <div class="circle"></div>
-// </div>`,
-//     css: `.quantum-loader {
-//   display: flex;
-//   gap: 8px;
-// }
+  {
+    id: 'loader-1',
+    name: 'Quantum Loader',
+    description: 'Mesmerizing loading animation',
+    category: 'loaders',
+    views: 2341,
+    html: `<div class="quantum-loader">
+  <div class="circle"></div>
+  <div class="circle"></div>
+  <div class="circle"></div>
+</div>`,
+    css: `.quantum-loader {
+  display: flex;
+  gap: 8px;
+}
 
-// .circle {
-//   width: 20px;
-//   height: 20px;
-//   border-radius: 50%;
-//   background: #0ff;
-//   animation: quantum 1.5s ease-in-out infinite;
-// }
+.circle {
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  background: #0ff;
+  animation: quantum 1.5s ease-in-out infinite;
+}
 
-// .circle:nth-child(2) {
-//   animation-delay: 0.2s;
-//   background: #f0f;
-// }
+.circle:nth-child(2) {
+  animation-delay: 0.2s;
+  background: #f0f;
+}
 
-// .circle:nth-child(3) {
-//   animation-delay: 0.4s;
-//   background: #ff0;
-// }
+.circle:nth-child(3) {
+  animation-delay: 0.4s;
+  background: #ff0;
+}
 
-// @keyframes quantum {
-//   0%, 100% {
-//     transform: scale(0.2);
-//     opacity: 0.2;
-//   }
-//   50% {
-//     transform: scale(1);
-//     opacity: 1;
-//   }
-// }`
-//   },
-//   {
-//     id: 'loader-2',
-//     name: 'Spiral Loader',
-//     description: 'Hypnotic spiral loading animation',
-//     category: 'loaders',
-//     views: 1567,
-//     html: `<div class="spiral-loader"></div>`,
-//     css: `.spiral-loader {
-//   width: 40px;
-//   height: 40px;
-//   border: 4px solid #f3f3f3;
-//   border-top: 4px solid #3498db;
-//   border-radius: 50%;
-//   animation: spiral 1s cubic-bezier(0.5, 0, 0.5, 1) infinite;
-// }
+@keyframes quantum {
+  0%, 100% {
+    transform: scale(0.2);
+    opacity: 0.2;
+  }
+  50% {
+    transform: scale(1);
+    opacity: 1;
+  }
+}`
+  },
+  {
+    id: 'loader-2',
+    name: 'Spiral Loader',
+    description: 'Hypnotic spiral loading animation',
+    category: 'loaders',
+    views: 1567,
+    html: `<div class="spiral-loader"></div>`,
+    css: `.spiral-loader {
+  width: 40px;
+  height: 40px;
+  border: 4px solid #f3f3f3;
+  border-top: 4px solid #3498db;
+  border-radius: 50%;
+  animation: spiral 1s cubic-bezier(0.5, 0, 0.5, 1) infinite;
+}
 
-// @keyframes spiral {
-//   0% {
-//     transform: rotate(0deg);
-//   }
-//   100% {
-//     transform: rotate(360deg);
-//   }
-// }`
-//   },
-//   {
-//     id: 'loader-4',
-//     name: 'Dark Modern Loader',
-//     description: 'A loader that gives your website a modern, dark and sleek look',
-//     category: 'loaders',
-//     views: 1337,
-//     html: `<div class="loader">
-//       <div class="intern">
-//       </div>
-//   <div class="external-shadow">
-//     <div class="central">
-//     </div>
-//   </div>
-// </div>
-// `,
-//     css: `
-// .loader {
-//   display: flex;
-//   justify-content: center;
-//   align-items: center;
-//   position: relative;
-//   cursor: not-allowed;
-//   scale: 0.9;
-// }
+@keyframes spiral {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}`
+  },
+  {
+    id: 'loader-4',
+    name: 'Dark Modern Loader',
+    description: 'A loader that gives your website a modern, dark and sleek look',
+    category: 'loaders',
+    views: 1337,
+    html: `<div class="loader">
+      <div class="intern">
+      </div>
+  <div class="external-shadow">
+    <div class="central">
+    </div>
+  </div>
+</div>
+`,
+    css: `
+.loader {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  cursor: not-allowed;
+  scale: 0.9;
+}
 
-// .central {
-//   display: flex;
-//   justify-content: center;
-//   align-items: center;
-//   position: relative;
-//   width: 10em;
-//   height: 10em;
-//   border-radius: 50%;
-// box-shadow: 0.5em 1em 1em #FF77FF,   
-//   -0.5em 0.5em 1em #FF8C00,       
-//   0.5em -0.5em 1em #00BFFF,        
-//   -0.5em -0.5em 1em #ADFF2F;        
-// }
+.central {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  width: 10em;
+  height: 10em;
+  border-radius: 50%;
+box-shadow: 0.5em 1em 1em #FF77FF,   
+  -0.5em 0.5em 1em #FF8C00,       
+  0.5em -0.5em 1em #00BFFF,        
+  -0.5em -0.5em 1em #ADFF2F;        
+}
 
-// .external-shadow {
-//   width: 10em;
-//   height: 10em;
-//   border-radius: 50%;
-//   display: flex;
-//   justify-content: center;
-//   align-items: center;
-//   position: relative;
-//   box-shadow: 0.5em 0.5em 3em blueviolet,
-//     -0.5em 0.5em 3em blue,
-//     0.5em -0.5em 3em purple,
-//     -0.5em -0.5em 3em cyan;
-//   z-index: 999;
-//   animation: rotate 3s linear infinite;
-//   background-color: #212121;
-// }
+.external-shadow {
+  width: 10em;
+  height: 10em;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  box-shadow: 0.5em 0.5em 3em blueviolet,
+    -0.5em 0.5em 3em blue,
+    0.5em -0.5em 3em purple,
+    -0.5em -0.5em 3em cyan;
+  z-index: 999;
+  animation: rotate 3s linear infinite;
+  background-color: #212121;
+}
 
-// .intern {
-//   position: absolute;
-//   color: white;
-//   z-index: 9999;
-// }
+.intern {
+  position: absolute;
+  color: white;
+  z-index: 9999;
+}
 
-// .intern::before {
-//   content: "100%";
-//   animation: percent 2s ease-in-out infinite;
-// }
+.intern::before {
+  content: "100%";
+  animation: percent 2s ease-in-out infinite;
+}
 
-// @keyframes rotate {
-//   0% {
-//     transform: rotate(0deg);
-//   }
+@keyframes rotate {
+  0% {
+    transform: rotate(0deg);
+  }
 
-//   50% {
-//     transform: rotate(180deg);
-//   }
+  50% {
+    transform: rotate(180deg);
+  }
 
-//   100% {
-//     transform: rotate(360deg);
-//   }
-// }
+  100% {
+    transform: rotate(360deg);
+  }
+}
 
-// @keyframes percent {
-//   0% {
-//     content: '0%';
-//   }
+@keyframes percent {
+  0% {
+    content: '0%';
+  }
 
-//   25% {
-//     content: '25%';
-//   }
+  25% {
+    content: '25%';
+  }
 
-//   33% {
-//     content: '33%';
-//   }
+  33% {
+    content: '33%';
+  }
 
-//   42% {
-//     content: '42%';
-//   }
+  42% {
+    content: '42%';
+  }
 
-//   51% {
-//     content: '51%';
-//   }
+  51% {
+    content: '51%';
+  }
 
-//   67% {
-//     content: '67%';
-//   }
+  67% {
+    content: '67%';
+  }
 
-//   74% {
-//     content: '74%';
-//   }
+  74% {
+    content: '74%';
+  }
 
-//   75% {
-//     content: '75%';
-//   }
+  75% {
+    content: '75%';
+  }
 
-//   86% {
-//     content: '86%';
-//   }
+  86% {
+    content: '86%';
+  }
 
-//   95% {
-//     content: '95%';
-//   }
+  95% {
+    content: '95%';
+  }
 
-//   98% {
-//     content: '98%';
-//   }
+  98% {
+    content: '98%';
+  }
 
-//   99% {
-//     content: '99%';
-//   }
-// }
-// `
-//   },
-//   {
-//     id: 'loader-3',
-//     name: 'Developer Loader',
-//     description: 'A developer console beautiful loading screen',
-//     category: 'loaders',
-//     views: 1567,
-//     html: `
-// <div class="terminal-loader">
-//   <div class="terminal-header">
-//     <div class="terminal-title">Status</div>
-//     <div class="terminal-controls">
-//       <div class="control close"></div>
-//       <div class="control minimize"></div>
-//       <div class="control maximize"></div>
-//     </div>
-//   </div>
-//   <div class="text">Executing...</div>
-// </div>
-// `,
-//     css: `
-// @keyframes blinkCursor {
-//   50% {
-//     border-right-color: transparent;
-//   }
-// }
+  99% {
+    content: '99%';
+  }
+}
+`
+  },
+  {
+    id: 'loader-3',
+    name: 'Developer Loader',
+    description: 'A developer console beautiful loading screen',
+    category: 'loaders',
+    views: 1567,
+    html: `
+<div class="terminal-loader">
+  <div class="terminal-header">
+    <div class="terminal-title">Status</div>
+    <div class="terminal-controls">
+      <div class="control close"></div>
+      <div class="control minimize"></div>
+      <div class="control maximize"></div>
+    </div>
+  </div>
+  <div class="text">Executing...</div>
+</div>
+`,
+    css: `
+@keyframes blinkCursor {
+  50% {
+    border-right-color: transparent;
+  }
+}
 
-// @keyframes typeAndDelete {
-//   0%,
-//   10% {
-//     width: 0;
-//   }
-//   45%,
-//   55% {
-//     width: 10em;
-//   }
-//   90%,
-//   100% {
-//     width: 0;
-//   }
-// }
+@keyframes typeAndDelete {
+  0%,
+  10% {
+    width: 0;
+  }
+  45%,
+  55% {
+    width: 10em;
+  }
+  90%,
+  100% {
+    width: 0;
+  }
+}
 
-// .terminal-loader {
-//   border: 0.1em solid #333;
-//   background-color: #1a1a1a;
-//   color: #0f0;
-//   font-family: "Courier New", Courier, monospace;
-//   font-size: 1em;
-//   padding: 1.5em 1em;
-//   width: 12em;
-//   margin: 100px auto;
-//   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
-//   border-radius: 4px;
-//   position: relative;
-//   overflow: hidden;
-//   box-sizing: border-box;
-// }
+.terminal-loader {
+  border: 0.1em solid #333;
+  background-color: #1a1a1a;
+  color: #0f0;
+  font-family: "Courier New", Courier, monospace;
+  font-size: 1em;
+  padding: 1.5em 1em;
+  width: 12em;
+  margin: 100px auto;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  border-radius: 4px;
+  position: relative;
+  overflow: hidden;
+  box-sizing: border-box;
+}
 
-// .terminal-header {
-//   position: absolute;
-//   top: 0;
-//   left: 0;
-//   right: 0;
-//   height: 1.5em;
-//   background-color: #333;
-//   border-top-left-radius: 4px;
-//   border-top-right-radius: 4px;
-//   padding: 0 0.4em;
-//   box-sizing: border-box;
-// }
+.terminal-header {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 1.5em;
+  background-color: #333;
+  border-top-left-radius: 4px;
+  border-top-right-radius: 4px;
+  padding: 0 0.4em;
+  box-sizing: border-box;
+}
 
-// .terminal-controls {
-//   float: right;
-// }
+.terminal-controls {
+  float: right;
+}
 
-// .control {
-//   display: inline-block;
-//   width: 0.6em;
-//   height: 0.6em;
-//   margin-left: 0.4em;
-//   border-radius: 50%;
-//   background-color: #777;
-// }
+.control {
+  display: inline-block;
+  width: 0.6em;
+  height: 0.6em;
+  margin-left: 0.4em;
+  border-radius: 50%;
+  background-color: #777;
+}
 
-// .control.close {
-//   background-color: #e33;
-// }
+.control.close {
+  background-color: #e33;
+}
 
-// .control.minimize {
-//   background-color: #ee0;
-// }
+.control.minimize {
+  background-color: #ee0;
+}
 
-// .control.maximize {
-//   background-color: #0b0;
-// }
+.control.maximize {
+  background-color: #0b0;
+}
 
-// .terminal-title {
-//   float: left;
-//   line-height: 1.5em;
-//   color: #eee;
-// }
+.terminal-title {
+  float: left;
+  line-height: 1.5em;
+  color: #eee;
+}
 
-// .text {
-//   display: inline-block;
-//   white-space: nowrap;
-//   overflow: hidden;
-//   border-right: 0.2em solid green;
-//   animation: typeAndDelete 4s steps(11) infinite,
-//     blinkCursor 0.5s step-end infinite alternate;
-//   margin-top: 1.5em;
-// }
-// `
-//   },
-//   {
-//     id: 'toggle-1',
-//     name: 'Neon Toggle',
-//     description: 'Cyberpunk-style toggle switch',
-//     category: 'toggles',
-//     views: 987,
-//     html: `<label class="neon-toggle">
-//   <input type="checkbox">
-//   <span class="slider"></span>
-// </label>`,
-//     css: `.neon-toggle {
-//   position: relative;
-//   display: inline-block;
-//   width: 60px;
-//   height: 34px;
-// }
+.text {
+  display: inline-block;
+  white-space: nowrap;
+  overflow: hidden;
+  border-right: 0.2em solid green;
+  animation: typeAndDelete 4s steps(11) infinite,
+    blinkCursor 0.5s step-end infinite alternate;
+  margin-top: 1.5em;
+}
+`
+  },
+  {
+    id: 'toggle-1',
+    name: 'Neon Toggle',
+    description: 'Cyberpunk-style toggle switch',
+    category: 'toggles',
+    views: 987,
+    html: `<label class="neon-toggle">
+  <input type="checkbox">
+  <span class="slider"></span>
+</label>`,
+    css: `.neon-toggle {
+  position: relative;
+  display: inline-block;
+  width: 60px;
+  height: 34px;
+}
 
-// .neon-toggle input {
-//   opacity: 0;
-//   width: 0;
-//   height: 0;
-// }
+.neon-toggle input {
+  opacity: 0;
+  width: 0;
+  height: 0;
+}
 
-// .slider {
-//   position: absolute;
-//   cursor: pointer;
-//   top: 0;
-//   left: 0;
-//   right: 0;
-//   bottom: 0;
-//   background-color: #2d2d2d;
-//   transition: .4s;
-//   border-radius: 34px;
-//   border: 2px solid #0ff;
-// }
+.slider {
+  position: absolute;
+  cursor: pointer;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: #2d2d2d;
+  transition: .4s;
+  border-radius: 34px;
+  border: 2px solid #0ff;
+}
 
-// .slider:before {
-//   position: absolute;
-//   content: "";
-//   height: 26px;
-//   width: 26px;
-//   left: 2px;
-//   bottom: 2px;
-//   background-color: white;
-//   transition: .4s;
-//   border-radius: 50%;
-// }
+.slider:before {
+  position: absolute;
+  content: "";
+  height: 26px;
+  width: 26px;
+  left: 2px;
+  bottom: 2px;
+  background-color: white;
+  transition: .4s;
+  border-radius: 50%;
+}
 
-// input:checked + .slider {
-//   background-color: #0ff;
-// }
+input:checked + .slider {
+  background-color: #0ff;
+}
 
-// input:checked + .slider:before {
-//   transform: translateX(26px);
-// }
+input:checked + .slider:before {
+  transform: translateX(26px);
+}
 
-// .slider:hover {
-//   box-shadow: 0 0 8px #0ff;
-// }`
-//   },
+.slider:hover {
+  box-shadow: 0 0 8px #0ff;
+}`
+  },
   {
     id: 'toggle-2',
     name: 'Neon Toggle',
