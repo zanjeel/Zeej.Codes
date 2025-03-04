@@ -7,7 +7,29 @@ export default defineConfig({
   optimizeDeps: {
     exclude: ['lucide-react'],
   },
-  resolve: {
-    extensions: ['.ts', '.tsx', '.js', '.jsx'], // Ensure .ts and .tsx files are resolved
+  build: {
+    target: 'esnext',
+    minify: 'esbuild',
+    rollupOptions: {
+      output: {
+        manualChunks: {
+          'react-vendor': ['react', 'react-dom', 'react-router-dom'],
+          'codemirror': [
+            '@codemirror/lang-css',
+            '@codemirror/lang-html',
+            '@codemirror/theme-one-dark',
+            '@codemirror/view',
+            '@uiw/react-codemirror'
+          ],
+          'ui': ['framer-motion', 'lucide-react', 'react-icons']
+        }
+      }
+    }
   },
+  resolve: {
+    extensions: ['.ts', '.tsx', '.js', '.jsx']
+  },
+  esbuild: {
+    logOverride: { 'this-is-undefined-in-esm': 'silent' }
+  }
 });

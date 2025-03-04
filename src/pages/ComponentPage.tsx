@@ -2,7 +2,7 @@ import React, { useState, useEffect } from 'react';
 import { useParams, useNavigate } from 'react-router-dom';
 import { ArrowLeft, Eye, Copy, Check } from 'lucide-react';
 import { components } from '../data/components';
-import CodeEditor from '../components/CodeEditor';
+import LazyCodeEditor from '../components/LazyCodeEditor';
 import Preview from '../components/Preview';
 
 const ComponentPage = () => {
@@ -124,7 +124,7 @@ const ComponentPage = () => {
               )}
             </button>
           </div>
-          <CodeEditor
+          <LazyCodeEditor
             html={html}
             css={css}
             activeTab={activeTab}
