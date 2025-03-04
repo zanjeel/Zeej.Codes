@@ -1,5 +1,7 @@
 # Zeej.Codes - Modern UI Components Showcase
 
+![Zeej.Codes Demo](./public/demo-photo.png)
+
 ## 📹 Demo Video
 https://github.com/zanjeel/Zeej.Codes/blob/main/public/Zeej-Codes-demo.mp4
 
@@ -40,25 +42,31 @@ Each component comes with:
 ## 🛠️ Installation
 
 1. Clone the repository:
-\`\`\`bash
+```bash
 git clone https://github.com/yourusername/Zeej.Codes.git
+```
+
+2. Navigate to project directory:
+```bash
 cd Zeej.Codes
-\`\`\`
+```
 
-2. Install dependencies:
-\`\`\`bash
+3. Install dependencies:
+```bash
 yarn install
-\`\`\`
+```
 
-3. Start the development server:
-\`\`\`bash
+4. Start the development server:
+```bash
 yarn dev
-\`\`\`
+```
 
-4. Build for production:
-\`\`\`bash
+5. Build for production:
+```bash
 yarn build
-\`\`\`
+```
+
+Your app should now be running on http://localhost:5173
 
 ## 📦 Dependencies
 
@@ -101,11 +109,28 @@ yarn build
 
 ## 🤝 Contributing
 
-1. Fork the repository
-2. Create your feature branch (\`git checkout -b feature/AmazingFeature\`)
-3. Commit your changes (\`git commit -m 'Add some AmazingFeature'\`)
-4. Push to the branch (\`git push origin feature/AmazingFeature\`)
-5. Open a Pull Request
+1. Fork the repository:
+```bash
+# Clone your fork
+git clone https://github.com/<your-username>/Zeej.Codes.git
+
+# Create your feature branch
+git checkout -b feature/AmazingFeature
+
+# Commit your changes
+git commit -m 'Add some AmazingFeature'
+
+# Push to the branch
+git push origin feature/AmazingFeature
+```
+
+2. Open a Pull Request
+
+We welcome all contributions! If you have an idea for a new component or feature:
+- Open an issue to discuss your idea
+- Submit a pull request with your changes
+- Help improve documentation
+- Share the project with others
 
 ## 📄 License
 
@@ -123,6 +148,14 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 For any questions or suggestions, please reach out through:
 - GitHub Issues
 - [Project Website](https://zeej-codes.vercel.app)
+
+## 🌟 Support the Project
+
+If you find this project useful:
+- Give it a star ⭐
+- Share it with others
+- Open a pull request with your improvements
+- Follow for updates
 
 ---
 Made with ❤️ by [Your Name] 
