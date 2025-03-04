@@ -1,9 +1,12 @@
 # Zeej.Codes - Modern UI Components Showcase
 
-![Zeej.Codes Demo](Zeej-Codes-demo.mp4)
+## 📹 Demo Video
+https://github.com/zanjeel/Zeej.Codes/blob/main/public/Zeej-Codes-demo.mp4
+
+[Watch Demo Video](./public/Zeej-Codes-demo.mp4)
 
 ## 🌐 Live Demo
-Check out the live demo: [Zeej.Codes](https://zeej-codes.vercel.app/category/contact)
+Check out the live demo: [Zeej.Codes](https://zeej-codes.vercel.app)
 
 ## 🚀 Overview
 Zeej.Codes is a modern UI components showcase platform that provides beautiful, ready-to-use UI components for web developers. The platform features a collection of carefully crafted components including:
@@ -119,7 +122,7 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 For any questions or suggestions, please reach out through:
 - GitHub Issues
-- [Project Website](https://zeej-codes.vercel.app/category/contact)
+- [Project Website](https://zeej-codes.vercel.app)
 
 ---
 Made with ❤️ by [Your Name] 
